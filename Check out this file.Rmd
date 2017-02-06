@@ -20,7 +20,14 @@ You can also embed plots, for example:
 hist(data)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot. Also note that we use tick marks "`" to denote inline code. 
 
-Try adding a code chunk of your own! Then save this file and head back over to your shell. To (1) `git add` this file (2) `git commit -m ""` this file with a commit message in the quotes, and (3) `git push origin master` this file up to your github repository!
+Now go ahead and click the button that says "Knit HTML" up above. Knitr is simply a compiler that runs all of your code and compiles your text and code output into a single document.
+
+RMarkdown and Knitr are important tools in the quest for "reproducible research". Using RMarkdown you could write a full report or even a paper with the code embedded, allowing any other researcher to clearly see the analyses run and to re-run those analyses themselves if they're dubious about the results. As it becomes more and more common for journals to require the publishing of your data and code along with your text you can get ahead of the game by having all of that in one place with an RMarkdown file!
+
+Try adding a code chunk of your own! 
+
+
+When you're ready save this file and head back over to your shell. To (1) `git add` this file (2) `git commit -m ""` this file with a commit message in the quotes, and (3) `git push origin master` this file up to your github repository!
 
