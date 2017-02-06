@@ -10,4 +10,4 @@ Then open up your "shell" program inside the folder in which you want to store t
 
 You should now see a command line shell. Simply type `git clone` and then paste the url you copied earlier and press enter.
 
-You should now see a folder within your current folder called demo-repo. This is your downloaded version of this github repository!
+You should now see a folder within your current folder called demo-repo. This is your downloaded version of this github repository! Go ahead and open "Check out this file.Rmd" in RStuido
