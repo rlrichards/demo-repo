@@ -29,5 +29,5 @@ RMarkdown and Knitr are important tools in the quest for "reproducible research"
 Try adding a code chunk of your own! 
 
 
-When you're ready save this file and head back over to your shell. To (1) `git add` this file (2) `git commit -m ""` this file with a commit message in the quotes, and (3) `git push origin master` this file up to your github repository!
+When you're ready save this file and re-open your shell withihn the demo-repo folder. To (1) `git add` this file (2) `git commit -m ""` this file with a commit message in the quotes, and (3) `git push origin master` this file up to your github repository! This version is now saved both on your machine and in your github repository. You can always return to an earlier "commit" state through github so commit early and often to take full advantage of version control!
 
