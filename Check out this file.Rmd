@@ -22,9 +22,6 @@ hist(data)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-Try adding a code chunk of your own! Then save this file and head back over to your shell. To (1) `git add` this file (2) `git commit -m ""` this file with a commit message in the quotes, and (3) `git push origin master` this file up to your github repository!
-
-
 This is a new branch with a different version of the same file. Branches can be used either for collaboration (so multiple people can be working on the same project while keeping the master veresion intact) or simply for experimentation (if you want to explore a potential new analysis that may or may not be ultimately included in the main version of the project).
 
 We're going to go ahead and create our own branch now by going back to the console to (1)`git checkout master` (2) `git branch "new-branch-name"` (3) `git checkout "new-branch-name"`. When we make changes to a branch we add and commit exactly the same but when we push we `git push origin new-branch-name` We moved back to the master branch before branching so that we created a new branch off of the master version rather than off of our existing branch.
